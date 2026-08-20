@@ -1,0 +1,339 @@
+<main id="home"  class="text-stone-600 font-sans select-none relative overflow-x-hidden w-full">
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="min-h-[100dvh] bg-[#C6C6C6] flex flex-col justify-between pt-6 px-4 sm:px-8 md:px-12 lg:px-20 2xl:px-32 pb-0 relative overflow-hidden">
+    <!-- Cabeçalho / Barra Superior -->
+    <header class="w-full flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 z-10">
+      <span class="text-sm sm:text-base font-medium tracking-tight text-stone-700">
+        &#64; Code by Carlos
+      </span>
+      <div class="w-full sm:max-w-xs md:max-w-md 2xl:max-w-lg sm:text-right space-y-3">
+        <p class="text-xs sm:text-sm leading-relaxed text-stone-600">
+          Engenheiro de Software e Mestrando em Ciência da Computação, especialista em backend Java (Spring Boot), microsserviços escaláveis e aplicação de Data Science e IA em sistemas modernos.
+        </p>
+        <div class="flex sm:justify-end">
+          <a href="#sobre" aria-label="Ir para seção sobre" class="w-9 h-9 sm:w-10 sm:h-10 rounded-full border border-stone-500 flex items-center justify-center text-stone-600 hover:border-stone-800 hover:text-stone-800 hover:scale-105 transition-all">
+            <svg class="w-4 h-4 rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Retrato P&B com Tipografia -->
+    <div class="relative flex-1 flex flex-col justify-end items-center w-full">
+      <!-- Foto -->
+      <div class="relative z-10 w-full max-w-[240px] xs:max-w-[280px] sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl flex justify-center items-end">
+        <img
+          src="/CarlosAugustoSemfundo.png"
+          alt="Carlos Augusto"
+          class="w-full h-auto max-h-[45vh] xs:max-h-[50vh] sm:max-h-[60vh] md:max-h-[70vh] object-contain grayscale contrast-110 drop-shadow-md block"
+        />
+      </div>
+
+      <!-- Marquee Letreiro -->
+      <div
+        class="absolute bottom-6 sm:bottom-10 md:bottom-14 left-0 w-full overflow-hidden whitespace-nowrap z-20 pointer-events-none"
+        style="-webkit-mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%); mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);"
+      >
+        <div class="flex w-max animate-[marquee_35s_linear_infinite] will-change-transform">
+          <div class="flex shrink-0 items-center gap-6 pr-6">
+            <h3 class="text-3xl xs:text-4xl sm:text-6xl md:text-8xl lg:text-9xl 2xl:text-[10rem] font-bold tracking-tighter uppercase text-stone-600/60 whitespace-nowrap">
+              Desenvolvedor & Cientista de Dados
+            </h3>
+          </div>
+          <div class="flex shrink-0 items-center gap-6 pr-6" aria-hidden="true">
+            <h3 class="text-3xl xs:text-4xl sm:text-6xl md:text-8xl lg:text-9xl 2xl:text-[10rem] font-bold tracking-tighter uppercase text-stone-600/60 whitespace-nowrap">
+              Desenvolvedor & Cientista de Dados
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SEÇÃO SOBRE ==================== -->
+  <section id="sobre" class="min-h-[80dvh] bg-[#e5e5e5] px-4 sm:px-8 md:px-16 lg:px-24 2xl:px-32 py-16 xs:py-20 sm:py-28 flex flex-col justify-center border-t border-stone-300">
+    <div class="max-w-5xl 2xl:max-w-6xl mx-auto w-full space-y-8">
+      <span class="text-xs uppercase tracking-widest text-stone-500 font-semibold">
+        01 / Trajetória
+      </span>
+      <h2 class="text-xl xs:text-2xl sm:text-4xl md:text-5xl 2xl:text-6xl font-bold text-stone-800 tracking-tight leading-tight">
+        Construindo sistemas escaláveis com engenharia de software robusta e inteligência aplicada.
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 text-stone-600 leading-relaxed text-sm sm:text-base 2xl:text-lg">
+        <p>
+          Atuação focada no desenvolvimento de microsserviços de alto desempenho e arquiteturas orientadas a eventos (RabbitMQ/Kafka) utilizando Java (Spring Boot) e .NET. Aplicação contínua de Clean Architecture, DDD, CQRS e práticas rigorosas de testes para entregar APIs resilientes e preparadas para ambientes de produção críticos.
+        </p>
+        <p>
+          Pesquisa e integração de modelos preditivos em Data Science, inteligência artificial e bancos de dados relacionais e NoSQL. Foco na criação de pipelines orientados a dados que conectam modelos analíticos diretamente a fluxos de backend para automação e suporte a decisões de negócio.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SEÇÃO HABILIDADES (Bento Grid) ==================== -->
+  <section id="skills" class="min-h-screen bg-[#1c1917] text-stone-300 px-4 sm:px-8 md:px-16 lg:px-24 py-20 sm:py-28 flex flex-col justify-center border-t border-stone-800 pb-32">
+    <div class="max-w-7xl mx-auto w-full space-y-12">
+      <!-- Cabeçalho da Seção -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 sm:gap-6 border-b border-stone-800/80 pb-8">
+        <div>
+          <span class="text-xs uppercase tracking-widest text-stone-500 font-semibold">
+            03 / Competências & Stack
+          </span>
+          <h2 class="text-3xl sm:text-5xl md:text-6xl font-bold text-stone-100 tracking-tight mt-1">
+            Habilidades Técnicas
+          </h2>
+        </div>
+        <p class="max-w-xs md:max-w-sm text-xs sm:text-sm font-medium tracking-wide uppercase text-stone-400 leading-relaxed md:text-right">
+          Domínio prático em engenharia de ponta a ponta, arquitetura distribuída e processos ágeis.
+        </p>
+      </div>
+
+      <!-- Grid Bento Box Perfeito (6 colunas no desktop, 2 no tablet, 1 no mobile) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 sm:gap-5 auto-rows-fr">
+
+        <!-- Linha 1: 4 colunas + 2 colunas = 6 -->
+        <!-- 1. Back-End Development (Destaque Principal - Largura 4) -->
+        <div class="lg:col-span-4 bg-stone-900/80 border border-stone-800 rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-stone-700 hover:bg-stone-900 transition-all duration-300">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-[11px] font-mono text-stone-400 tracking-wider uppercase">01. Core Backend</span>
+              <span class="w-2 h-2 rounded-full bg-emerald-500/80"></span>
+            </div>
+            <h3 class="text-xl sm:text-2xl font-bold text-stone-100 mb-2">Back-End & Microsserviços</h3>
+            <p class="text-stone-400 text-xs sm:text-sm leading-relaxed mb-6 max-w-2xl">
+              Desenvolvimento de sistemas escaláveis orientados a eventos, microsserviços, Clean Architecture, DDD, CQRS e APIs RESTful seguras.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-stone-800">
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Java 17 / 8</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Spring Boot</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">C# / .NET</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Node.js (Express)</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">FastAPI / Django</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">RabbitMQ / Kafka</span>
+          </div>
+        </div>
+
+        <!-- 2. Front-End Development (Largura 2) -->
+        <div class="lg:col-span-2 bg-stone-900/80 border border-stone-800 rounded-2xl p-6 flex flex-col justify-between hover:border-stone-700 hover:bg-stone-900 transition-all duration-300">
+          <div>
+            <span class="text-[11px] font-mono text-stone-400 tracking-wider uppercase block mb-3">02. Interfaces</span>
+            <h3 class="text-lg font-bold text-stone-100 mb-2">Front-End & UI</h3>
+            <p class="text-stone-400 text-xs sm:text-sm leading-relaxed mb-6">
+              Construção de interfaces modernas, SPAs dinâmicas, tipagem estrita e integração com APIs REST.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-stone-800">
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">TypeScript</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">React</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Angular</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">TailwindCSS</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Linha 2: 2 colunas + 4 colunas = 6 -->
+        <!-- 3. Metodologias Ágeis & Gestão (Largura 2) -->
+        <div class="lg:col-span-2 bg-stone-900/80 border border-stone-800 rounded-2xl p-6 flex flex-col justify-between hover:border-stone-700 hover:bg-stone-900 transition-all duration-300">
+          <div>
+            <span class="text-[11px] font-mono text-stone-400 tracking-wider uppercase block mb-3">03. Métodos & Processos</span>
+            <h3 class="text-lg font-bold text-stone-100 mb-2">Metodologias Ágeis</h3>
+            <p class="text-stone-400 text-xs sm:text-sm leading-relaxed mb-6">
+              Planejamento iterativo, entregas contínuas, gestão de fluxo com cerimônias ágeis e liderança técnica.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-stone-800">
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Scrum</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Kanban</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Rituais Ágeis</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Code Review</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Liderança Técnica</span>
+          </div>
+        </div>
+
+        <!-- 5. DevOps, Cloud & CI/CD (Destaque Duplo - Largura 4) -->
+        <div class="lg:col-span-4 bg-stone-900/80 border border-stone-800 rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-stone-700 hover:bg-stone-900 transition-all duration-300">
+          <div>
+            <span class="text-[11px] font-mono text-stone-400 tracking-wider uppercase block mb-3">04. Infraestrutura & DevOps</span>
+            <h3 class="text-xl sm:text-2xl font-bold text-stone-100 mb-2">Containers, Cloud & Automação</h3>
+            <p class="text-stone-400 text-xs sm:text-sm leading-relaxed mb-6 max-w-2xl">
+              Isolamento de ambientes com containers, automação de esteiras CI/CD e integração com serviços em nuvem.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-stone-800">
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Docker</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Docker Compose</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">GitHub Actions</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">AWS (EC2, S3, RDS)</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Swagger / OpenAPI</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Linux</span>
+          </div>
+        </div>
+
+        <!-- Linha 3: 2 colunas + 2 colunas + 2 colunas = 6 -->
+        <!-- 4. Databases & Caching (Largura 2) -->
+        <div class="lg:col-span-2 bg-stone-900/80 border border-stone-800 rounded-2xl p-6 flex flex-col justify-between hover:border-stone-700 hover:bg-stone-900 transition-all duration-300">
+          <div>
+            <span class="text-[11px] font-mono text-stone-400 tracking-wider uppercase block mb-3">05. Persistência</span>
+            <h3 class="text-lg font-bold text-stone-100 mb-2">Bancos de Dados</h3>
+            <p class="text-stone-400 text-xs sm:text-sm leading-relaxed mb-6">
+              Modelagem relacional e NoSQL, separação CQRS (Write/Read model) e cache de alta velocidade.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-stone-800">
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">PostgreSQL</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">MongoDB</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">MySQL</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">SQL Server</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Redis</span>
+          </div>
+        </div>
+
+        <!-- 6. Testing & Qualidade de Código (Largura 2) -->
+        <div class="lg:col-span-2 bg-stone-900/80 border border-stone-800 rounded-2xl p-6 flex flex-col justify-between hover:border-stone-700 hover:bg-stone-900 transition-all duration-300">
+          <div>
+            <span class="text-[11px] font-mono text-stone-400 tracking-wider uppercase block mb-3">06. Garantia</span>
+            <h3 class="text-lg font-bold text-stone-100 mb-2">Testes & Qualidade</h3>
+            <p class="text-stone-400 text-xs sm:text-sm leading-relaxed mb-6">
+              Garantia de estabilidade via testes unitários, testes de integração e análise de qualidade de código.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-stone-800">
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">JUnit 5</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Mockito</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Clean Code</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Postman</span>
+          </div>
+        </div>
+
+        <!-- 7. Data Science & Modelos de IA (Largura 2) -->
+        <div class="lg:col-span-2 md:col-span-2 bg-stone-900/80 border border-stone-800 rounded-2xl p-6 flex flex-col justify-between hover:border-stone-700 hover:bg-stone-900 transition-all duration-300">
+          <div>
+            <span class="text-[11px] font-mono text-stone-400 tracking-wider uppercase block mb-3">07. Inteligência</span>
+            <h3 class="text-lg font-bold text-stone-100 mb-2">Data Science & IA</h3>
+            <p class="text-stone-400 text-xs sm:text-sm leading-relaxed mb-6">
+              Análise preditiva, manipulação de dados em Python e integração de modelos de IA com APIs de produção.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-1.5 pt-4 border-t border-stone-800">
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Python</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Machine Learning</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Análise Preditiva</span>
+            <span class="px-2.5 py-1 bg-stone-800 text-stone-300 text-xs rounded-md">Integração LLMs</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SEÇÃO PROJETOS ==================== -->
+  <section id="projetos" class="min-h-screen bg-[#C6C6C6] px-4 sm:px-8 md:px-16 lg:px-24 2xl:px-32 py-16 xs:py-20 sm:py-28 flex flex-col justify-center border-t border-stone-300 pb-32 sm:pb-36">
+    <div class="max-w-6xl 2xl:max-w-7xl mx-auto w-full space-y-10 sm:space-y-12">
+      <!-- Cabeçalho da Seção -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 sm:gap-6">
+        <div>
+          <span class="text-xs uppercase tracking-widest text-stone-600 font-semibold">
+            02 / Portfólio
+          </span>
+          <h2 class="text-2xl xs:text-3xl sm:text-5xl md:text-6xl 2xl:text-7xl font-bold text-stone-900 tracking-tight mt-1">
+            Trabalhos Recentes
+          </h2>
+        </div>
+        <p class="max-w-xs md:max-w-sm text-xs sm:text-sm font-medium tracking-wide uppercase text-stone-600 leading-relaxed md:text-right">
+          Uma seleção de projetos em backend, arquitetura de sistemas, ciência de dados e acadêmicos.
+        </p>
+      </div>
+
+      <!-- Grid de Cards de Projetos -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-6 md:gap-8">
+        @for (project of (showAll() ? allProjects : allProjects.slice(0, 4)); track project.id) {
+          <app-project-card [project]="project"></app-project-card>
+        }
+      </div>
+
+      <!-- Botão Centralizado de Toggle -->
+      <div class="flex justify-center pt-4">
+        <button
+          (click)="toggleProjects()"
+          class="cursor-pointer px-6 py-2.5 rounded-full bg-stone-800 text-white text-xs sm:text-sm font-medium hover:bg-stone-900 transition-all shadow-md hover:scale-105 active:scale-95 flex items-center gap-2">
+          <span>{{ showAll() ? 'Mostrar menos' : 'Explorar todos (' + allProjects.length + ')' }}</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SEÇÃO CONTATO ==================== -->
+  <section id="contato" class="min-h-[85dvh] bg-[#e5e5e5] px-4 sm:px-8 md:px-16 lg:px-24 2xl:px-32 py-16 xs:py-20 sm:py-28 flex flex-col justify-between border-t border-stone-200 pb-32 sm:pb-36">
+    <div class="max-w-6xl 2xl:max-w-7xl mx-auto w-full flex-1 flex flex-col justify-between space-y-12">
+      <!-- Bloco Superior -->
+      <div class="space-y-3 pt-4">
+        <span class="text-xs sm:text-sm font-mono tracking-wide text-stone-500">
+          Vamos construir algo juntos?
+        </span>
+        <h2 class="text-2xl xs:text-3xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold text-stone-950 tracking-tight">
+          Tem algum projeto em mente?
+        </h2>
+        <p class="text-base xs:text-lg sm:text-2xl md:text-3xl font-medium text-stone-700">
+          Vamos conversar.
+        </p>
+      </div>
+
+      <!-- Bloco Inferior com Contatos e CTA -->
+      <div class="w-full space-y-8">
+        <hr class="border-t border-stone-300 w-full" />
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-8">
+          <!-- Dados de Contato -->
+          <div class="space-y-2 text-xs sm:text-sm text-stone-600 font-mono break-words">
+            <p>
+              Email:
+              <a href="mailto:carlosaugustoestudante1202@gmail.com" class="text-stone-900 font-semibold hover:underline decoration-stone-400 break-all">
+                carlosaugustoestudante1202@gmail.com
+              </a>
+            </p>
+            <p>
+              Telefone:
+              <span class="text-stone-900 font-semibold">(+55) 88 9 9741-5684</span>
+            </p>
+          </div>
+
+          <!-- Botão CTA -->
+          <a
+            href="mailto:carlosaugustoestudante1202@gmail.com"
+            class="inline-flex self-start md:self-auto items-center justify-center w-24 h-24 xs:w-28 xs:h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 rounded-full bg-stone-900 hover:bg-stone-800 text-white font-medium text-xs sm:text-sm text-center p-4 shadow-xl hover:scale-105 transition-all duration-300">
+            <span>Entre em contato</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== NAVBAR FIXA (DOCK) ==================== -->
+  <aside class="fixed bottom-4 sm:bottom-6 left-1/2 -translate-x-1/2 z-50 pointer-events-auto max-w-[92vw]">
+    <nav class="flex items-center gap-1 sm:gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-white/70 backdrop-blur-md border border-stone-400/50 shadow-lg text-xs sm:text-sm text-stone-700 font-medium whitespace-nowrap overflow-x-auto">
+      <a href="#home" class="px-2.5 py-1 rounded-full transition-all hover:text-stone-950 hover:bg-stone-200/70">Início</a>
+      <a href="#sobre" class="px-2.5 py-1 rounded-full transition-all hover:text-stone-950 hover:bg-stone-200/70">Sobre</a>
+      <a href="#skills" class="px-2.5 py-1 rounded-full transition-all hover:text-stone-950 hover:bg-stone-200/70">Habilidades</a>
+      <a href="#projetos" class="px-2.5 py-1 rounded-full transition-all hover:text-stone-950 hover:bg-stone-200/70">Projetos</a>
+      <a href="#contato" class="px-2.5 py-1 rounded-full transition-all hover:text-stone-950 hover:bg-stone-200/70">Contato</a>
+      <div class="h-3.5 w-px bg-stone-400/50 mx-0.5 sm:mx-1 shrink-0"></div>
+      <div class="flex items-center gap-1 shrink-0">
+        <a href="https://github.com/carlos-augusto-carneiro" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="p-1.5 rounded-full text-stone-600 hover:text-stone-950 hover:bg-stone-200/70 transition-all">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/carloscarneiroaugusto/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+          class="p-1.5 rounded-full text-stone-600 hover:text-stone-950 hover:bg-stone-200/70 transition-all">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+          </svg>
+        </a>
+      </div>
+    </nav>
+  </aside>
+</main>
