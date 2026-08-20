@@ -17,3 +17,15 @@
   white-space: nowrap;
   animation: marquee 35s linear infinite;
 }
+
+@keyframes binaryFall {
+  0% { transform: translateY(-50%); }
+  100% { transform: translateY(0%); }
+}
+.binary-column {
+  position: absolute;
+  top: 0;
+  animation-name: binaryFall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}

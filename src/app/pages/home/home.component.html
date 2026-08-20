@@ -1,6 +1,18 @@
 <main id="home"  class="text-stone-600 font-sans select-none relative overflow-x-hidden w-full">
   <!-- ==================== HERO SECTION ==================== -->
   <section class="min-h-[100dvh] bg-[#C6C6C6] flex flex-col justify-between pt-6 px-4 sm:px-8 md:px-12 lg:px-20 2xl:px-32 pb-0 relative overflow-hidden">
+    <!-- Chuva Binária (background decorativo) -->
+    <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none select-none" aria-hidden="true">
+      @for (col of binaryColumns; track $index) {
+        <div
+          class="binary-column font-mono text-[9px] xs:text-[10px] sm:text-xs leading-[14px] xs:leading-4 sm:leading-5 text-stone-700/10 whitespace-pre"
+          [style.left.%]="col.left"
+          [style.animation-duration.s]="col.duration"
+          [style.animation-delay.s]="col.delay"
+        >{{ col.chars }}{{ col.chars }}</div>
+      }
+    </div>
+
     <!-- Cabeçalho / Barra Superior -->
     <header class="w-full flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 z-10">
       <span class="text-sm sm:text-base font-medium tracking-tight text-stone-700">
@@ -19,6 +31,7 @@
         </div>
       </div>
     </header>
+
 
     <!-- Retrato P&B com Tipografia -->
     <div class="relative flex-1 flex flex-col justify-end items-center w-full">
@@ -79,7 +92,7 @@
       <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 sm:gap-6 border-b border-stone-800/80 pb-8">
         <div>
           <span class="text-xs uppercase tracking-widest text-stone-500 font-semibold">
-            03 / Competências & Stack
+            02 / Competências & Stack
           </span>
           <h2 class="text-3xl sm:text-5xl md:text-6xl font-bold text-stone-100 tracking-tight mt-1">
             Habilidades Técnicas
@@ -236,7 +249,7 @@
       <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 sm:gap-6">
         <div>
           <span class="text-xs uppercase tracking-widest text-stone-600 font-semibold">
-            02 / Portfólio
+            03 / Portfólio
           </span>
           <h2 class="text-2xl xs:text-3xl sm:text-5xl md:text-6xl 2xl:text-7xl font-bold text-stone-900 tracking-tight mt-1">
             Trabalhos Recentes
