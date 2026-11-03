@@ -7,12 +7,12 @@ import { Project } from '../models/project.model';
 export class ProjectsService {
   private projects: Project[] = [
     {
-      id: 'fintech-bank',
-      title: 'Fintech Bank Microservice',
-      description: 'Microsserviços bancários escaláveis construídos com ecossistema Spring Boot, mensageria e persistência relacional.',
-      tags: ['Java 17', 'Spring Boot', 'Microservices', 'Docker'],
-      github: 'https://github.com/carlos-augusto-carneiro/fintech-bank-microservice',
-      imageUrl: 'https://raw.githubusercontent.com/carlos-augusto-carneiro/fintech-bank-microservice/refs/heads/main/identity-service/assets/C4FintechBank-P%C3%A1gina-1.drawio.png',
+      id: 'picpay-challenge',
+      title: 'PicPay Desafio Backend',
+      description: 'Implementação de transferência monetária, validação de autorizador externo e notificações resilientes.',
+      tags: ['PHP', 'Laravel', 'Clean Architecture'],
+      github: 'https://github.com/carlos-augusto-carneiro/picpay-desafio-backend',
+      imageUrl: 'https://imgs.search.brave.com/xTMbVSshBlxVZxS2WnxeAXJrWr4TMcix_zwEQoK0NwU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9maWxl/cy50ZWNub2Jsb2cu/bmV0L3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIyLzAzL3BpY3Bh/eS1jYXBhLTM0MHgx/OTEucG5n',
     },
     {
       id: 'bankcore-legacy',
@@ -23,12 +23,12 @@ export class ProjectsService {
       imageUrl: 'https://imgs.search.brave.com/0cOcp0XE2hwlf3JdjHeRI3k6gr56tVLLBiIsvQB9KTE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZW1w/cmV1cGRhdGUuY29t/LmJyL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIzLzA3L2pha2Fy/dGEtZWUtamF2YS0x/MDI0eDU3Ny5qcGc',
     },
     {
-      id: 'picpay-challenge',
-      title: 'PicPay Desafio Backend',
-      description: 'Implementação de transferência monetária, validação de autorizador externo e notificações resilientes.',
-      tags: ['PHP', 'Laravel', 'Clean Architecture'],
-      github: 'https://github.com/carlos-augusto-carneiro/picpay-desafio-backend',
-      imageUrl: 'https://imgs.search.brave.com/xTMbVSshBlxVZxS2WnxeAXJrWr4TMcix_zwEQoK0NwU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9maWxl/cy50ZWNub2Jsb2cu/bmV0L3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIyLzAzL3BpY3Bh/eS1jYXBhLTM0MHgx/OTEucG5n',
+      id: 'fintech-bank',
+      title: 'Fintech Bank Microservice',
+      description: 'Microsserviços bancários escaláveis construídos com ecossistema Spring Boot, mensageria e persistência relacional.',
+      tags: ['Java 17', 'Spring Boot', 'Microservices', 'Docker'],
+      github: 'https://github.com/carlos-augusto-carneiro/fintech-bank-microservice',
+      imageUrl: 'https://raw.githubusercontent.com/carlos-augusto-carneiro/fintech-bank-microservice/refs/heads/main/identity-service/assets/C4FintechBank-P%C3%A1gina-1.drawio.png',
     },
     {
       id: 'mbt',
